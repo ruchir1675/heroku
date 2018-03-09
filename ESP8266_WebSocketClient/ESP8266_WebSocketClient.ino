@@ -8,8 +8,8 @@
 
 const char* ssid     = "xxxxxxx"; //enter your ssid/ wi-fi(case sensitiv) router name - 2.4 Ghz only
 const char* password = "xxxxxxxx";     // enter ssid password (case sensitiv)
-char host[] = "alexatestpi.herokuapp.com"; //enter your Heroku domain name like "espiot.herokuapp.com" 
- // enter the distance in inches between you ultrasonic sensor and garage door
+char host[] = "alexatestpi.herokuapp.com"; //enter your Heroku domain name like "homecontrol.herokuapp.com" 
+ 
 
 int duration, distance;
 const int relayPin1 = 16;
